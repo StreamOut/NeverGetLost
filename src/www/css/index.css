@@ -1,0 +1,25 @@
+#btnScan {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  width: 20%;
+  height: 7%;
+}
+
+#btnCompass{
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  width: 35%;
+  height: 7%;
+}
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}

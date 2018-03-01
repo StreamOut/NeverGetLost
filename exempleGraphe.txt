@@ -1,0 +1,11 @@
+{ "name" : "GrapheTest",
+	"nbVertex" : 5,
+	"edges" : [
+		{ "s1" : 0, "s2" : 1, "weight" : 3 },
+		{ "s1" : 2, "s2" : 1, "weight" : 7 },
+		{ "s1" : 0, "s2" : 4, "weight" : 18 },
+		{ "s1" : 4, "s2" : 3, "weight" : 5 },
+		{ "s1" : 0, "s2" : 3, "weight" : 3 },
+		{ "s1" : 2, "s2" : 4, "weight" : 1 }
+	]
+}

@@ -1,0 +1,1 @@
+qr = 7089 caractere numerique , 4296 caractere alphanumerique, 2953 octet
