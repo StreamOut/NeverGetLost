@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-android-support-gradle-release",
+        "scope": null,
+        "escapedName": "cordova-android-support-gradle-release",
+        "name": "cordova-android-support-gradle-release",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/malo/workspace/NeverGetLost/src"
+    ]
+  ],
+  "_from": "cordova-android-support-gradle-release@latest",
+  "_id": "cordova-android-support-gradle-release@1.2.0",
+  "_inCache": true,
+  "_location": "/cordova-android-support-gradle-release",
+  "_nodeVersion": "7.10.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-android-support-gradle-release-1.2.0.tgz_1515690815452_0.891993340337649"
+  },
+  "_npmUser": {
+    "name": "davealden",
+    "email": "dave@workingedge.co.uk"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-android-support-gradle-release",
+    "scope": null,
+    "escapedName": "cordova-android-support-gradle-release",
+    "name": "cordova-android-support-gradle-release",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-android-support-gradle-release/-/cordova-android-support-gradle-release-1.2.0.tgz",
+  "_shasum": "0c7bc0ab9207b89742dd85e4810e087b61426135",
+  "_shrinkwrap": null,
+  "_spec": "cordova-android-support-gradle-release",
+  "_where": "/home/malo/workspace/NeverGetLost/src",
+  "author": {
+    "name": "Dave Alden"
+  },
+  "dependencies": {
+    "xml2js": "~0.4.19"
+  },
+  "description": "Cordova/Phonegap plugin to align various versions of the Android Support libraries specified by other plugins to a specific version",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "0c7bc0ab9207b89742dd85e4810e087b61426135",
+    "tarball": "https://registry.npmjs.org/cordova-android-support-gradle-release/-/cordova-android-support-gradle-release-1.2.0.tgz"
+  },
+  "gitHead": "4ea080db6b0a0dbfe4942bb8b2c7cce661d8af7a",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "davealden",
+      "email": "dave@workingedge.co.uk"
+    }
+  ],
+  "name": "cordova-android-support-gradle-release",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {},
+  "version": "1.2.0"
+}

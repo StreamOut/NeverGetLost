@@ -1,5 +1,5 @@
 class Graph {
-  constructor(size) {
+  constructor(size, directory) {
     this.size = size;
     this.edges = new Array(size);
     for(var i = 0; i < size; i++){
@@ -8,6 +8,7 @@ class Graph {
         this.edges[i][j] = 0;
       }
     }
+    this.directory = directory;
   }
 
   // Ajouter une arête au graphe.
@@ -23,7 +24,6 @@ class Graph {
     this.edges[s1][s2] = weight;
     this.edges[s2][s1] = weight;
   }
-
 
   initDomaine(start){
     var domaine = Array(this.size);
@@ -92,7 +92,7 @@ class Graph {
       s = pred[s];
     }
     path += start;
-    console.log(path);
+    return path;
   }
 
   toJson() {

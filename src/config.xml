@@ -25,5 +25,8 @@
     </platform>
     <plugin name="phonegap-plugin-barcodescanner" spec="^7.0.2" />
     <plugin name="cordova-plugin-device-orientation" spec="^1.0.7" />
+    <plugin name="cordova-android-support-gradle-release" spec="^1.2.0">
+        <variable name="ANDROID_SUPPORT_VERSION" value="26.0.0" />
+    </plugin>
     <engine name="android" spec="^7.0.0" />
 </widget>

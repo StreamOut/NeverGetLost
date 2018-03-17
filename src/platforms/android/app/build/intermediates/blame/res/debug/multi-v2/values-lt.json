@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/malo/Documents/ProjetMaster2/TestQr/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml",
+            "outputFile": "/home/malo/workspace/NeverGetLost/src/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml",
             "map": [
                 {
-                    "source": "/home/malo/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/a4d1215ddd9c99f68d07d6715200b5e8/res/values-lt/values-lt.xml",
+                    "source": "/home/malo/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7e4727b7af967fd2a625c4595fe806e1/res/values-lt/values-lt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

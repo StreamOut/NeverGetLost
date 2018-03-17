@@ -6,13 +6,22 @@
   height: 7%;
 }
 
-#btnCompass{
+#btnGetPlan{
   position: absolute;
   left: 35%;
-  top: 50%;
-  width: 35%;
+  top: 80%;
+  width: 40%;
   height: 7%;
 }
+
+#btnScanNode{
+  position: absolute;
+  left: 25%;
+  top: 80%;
+  width: 50%;
+  height: 7%;
+}
+
 
 .links line {
   stroke: #999;
@@ -22,4 +31,21 @@
 .nodes circle {
   stroke: #fff;
   stroke-width: 1.5px;
+}
+
+body {
+  background: linear-gradient(to bottom right, orange, blue);
+}
+
+#testRotate {
+    position:relative;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    background-image: url(../img/Direction-icon.png);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }

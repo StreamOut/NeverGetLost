@@ -7,5 +7,10 @@
 		{ "s1" : 4, "s2" : 3, "weight" : 5 },
 		{ "s1" : 0, "s2" : 3, "weight" : 3 },
 		{ "s1" : 2, "s2" : 4, "weight" : 1 }
-	]
+	],
+	"directory" : [
+		{ "name" : "salle Djakarta", "occupant" : "M. Madjarov", "s1" : 4, "s2" : 3, "distance" : 3 },
+		{ "name" : "salle Port au price", "occupant" : "none", "s1" : 2, "s2" : 1, "distance" : 7 },
+		{ "name" : "salle Singapour", "occupant" : "M. Massat", "s1" : 0, "s2" : 4, "distance" : 1 }
+    ]
 }

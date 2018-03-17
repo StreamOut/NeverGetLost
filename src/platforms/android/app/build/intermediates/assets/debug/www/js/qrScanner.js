@@ -4,8 +4,13 @@ function scan() {
         if(!result.cancelled) {
           alert("Barcode type is: " + result.format);
           alert("Decoded text is: " + result.text);
-          var graph = textToGraph(result.text);
-          displayGraph(graph.toJson());
+          textToGraph(result.text);
+          createAnnuaire();
+          // alert(graph.directory);
+          // createAnnuaire(graph.directory);
+          // alert("graph "+graph.toJson())
+          // displayGraph(graph.toJson());
+          // displayGraph(JSON.parse(result.text));
         }
         else {
           alert("You have cancelled scan");
@@ -19,12 +24,12 @@ function scan() {
 
 function textToGraph(text){
   var json = JSON.parse(text);
-  var graph = new Graph(json.nbVertex);
+  GLOBAL_graph = new Graph(json.nbVertex, json.directory);
   var edge;
   for (var i = 0; i < json.edges.length; i++) {
     edge = json.edges[i];
-    graph.addEdge(edge.s1, edge.s2, edge.weight);
+    GLOBAL_graph.addEdge(edge.s1, edge.s2, edge.weight);
   }
-  alert("Nouveau graphe avec "+graph.size+" sommets")
-  return graph;
+  alert("Nouveau graphe avec "+GLOBAL_graph.size+" sommets");
+  GLOBAL_directory = json.directory;
 }

@@ -38,7 +38,8 @@ module.exports.metadata =
 {
   "cordova-plugin-whitelist": "1.3.3",
   "phonegap-plugin-barcodescanner": "7.0.2",
-  "cordova-plugin-device-orientation": "1.0.7"
+  "cordova-plugin-device-orientation": "1.0.7",
+  "cordova-android-support-gradle-release": "1.2.0"
 };
 // BOTTOM OF METADATA
 });

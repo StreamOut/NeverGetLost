@@ -7,19 +7,6 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="css/index.css" rel="stylesheet" type="text/css">
-        <style>
-
-.links line {
-  stroke: #999;
-  stroke-opacity: 0.6;
-}
-
-.nodes circle {
-  stroke: #fff;
-  stroke-width: 1.5px;
-}
-
-</style>
         <title>Never Get Lost</title>
     </head>
     <body>
@@ -29,14 +16,9 @@
           Never Get Lost
         </a>
       </nav>
-      <div>
-          <button id="btnScan" type="button" class="btn btn-primary" onclick="scan()">Scan</button>
-      </div>
-      <p>Direction : </p>
-      <div id="result"></div>
 
-      <button id="btnCompass" type="button" class="btn btn-primary" onclick="startBoussole()">Start Watching</button>
-      <svg width="300" height="200"></svg>
+      <div id="result"></div>
+      <div id="contenu"></div>
 
       <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
       <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
@@ -48,12 +30,12 @@
       <script type="text/javascript" src="js/compass.js"> </script>
       <script type="text/javascript" src="js/graph.js"> </script>
       <script type="text/javascript" src="js/displayGraph.js"> </script>
+      <script type="text/javascript" src="js/display.js"> </script>
+      <script type="text/javascript" src="js/data.js"> </script>
       <script src="https://d3js.org/d3.v4.min.js"></script>
       <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
       <script>
-      // var text = '{"nodes":[ {"id":0,"groupe":1},{"id":1,"groupe":1},{"id":2,"groupe":1},{"id":3,"groupe":1},{"id":4,"groupe":1}],"links":[{"source":0,"target":4,"value":18},{"source":1,"target":2,"value":7},{"source":2,"target":4,"value":1},{"source":3,"target":4,"value":5},{"source":4,"target":3,"value":5}]}';
-      // var graph = JSON.parse(text);
-      // diplay(graph);
+      homepageView();
 
 		</script>
     </body>

@@ -20,26 +20,19 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int coordinatorLayoutStyle=0x7f020000;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int font=0x7f020001;
+    public static final int font=0x7f020000;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderAuthority=0x7f020002;
+    public static final int fontProviderAuthority=0x7f020001;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fontProviderCerts=0x7f020003;
+    public static final int fontProviderCerts=0x7f020002;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -51,7 +44,7 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchStrategy=0x7f020004;
+    public static final int fontProviderFetchStrategy=0x7f020003;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -63,17 +56,17 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchTimeout=0x7f020005;
+    public static final int fontProviderFetchTimeout=0x7f020004;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderPackage=0x7f020006;
+    public static final int fontProviderPackage=0x7f020005;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderQuery=0x7f020007;
+    public static final int fontProviderQuery=0x7f020006;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -85,103 +78,11 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontStyle=0x7f020008;
+    public static final int fontStyle=0x7f020007;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int fontWeight=0x7f020009;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int keylines=0x7f02000a;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int layout_anchor=0x7f02000b;
-    /**
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td></td></tr>
-     * <tr><td>center</td><td>11</td><td></td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
-     * <tr><td>fill</td><td>77</td><td></td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
-     * <tr><td>left</td><td>3</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
-     * <tr><td>top</td><td>30</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_anchorGravity=0x7f02000c;
-    /**
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     */
-    public static final int layout_behavior=0x7f02000d;
-    /**
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>77</td><td></td></tr>
-     * <tr><td>bottom</td><td>50</td><td></td></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
-     * <tr><td>left</td><td>3</td><td></td></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
-     * <tr><td>top</td><td>30</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_dodgeInsetEdges=0x7f02000e;
-    /**
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td></td></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
-     * <tr><td>left</td><td>3</td><td></td></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
-     * <tr><td>top</td><td>30</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_insetEdge=0x7f02000f;
-    /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int layout_keyline=0x7f020010;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int statusBarBackground=0x7f020011;
+    public static final int fontWeight=0x7f020008;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f030000;
@@ -256,94 +157,77 @@ public final class R {
     public static final int action_image=0x7f070003;
     public static final int action_text=0x7f070004;
     public static final int actions=0x7f070005;
-    public static final int all=0x7f070006;
-    public static final int app_picker_list_item_icon=0x7f070007;
-    public static final int app_picker_list_item_label=0x7f070008;
-    public static final int async=0x7f070009;
-    public static final int barcode_image_view=0x7f07000a;
-    public static final int blocking=0x7f07000b;
-    public static final int bookmark_title=0x7f07000c;
-    public static final int bookmark_url=0x7f07000d;
-    public static final int bottom=0x7f07000e;
-    public static final int cancel_action=0x7f07000f;
-    public static final int center=0x7f070010;
-    public static final int center_horizontal=0x7f070011;
-    public static final int center_vertical=0x7f070012;
-    public static final int chronometer=0x7f070013;
-    public static final int clip_horizontal=0x7f070014;
-    public static final int clip_vertical=0x7f070015;
-    public static final int contents_supplement_text_view=0x7f070016;
-    public static final int contents_text_view=0x7f070017;
-    public static final int decode=0x7f070018;
-    public static final int decode_failed=0x7f070019;
-    public static final int decode_succeeded=0x7f07001a;
-    public static final int end=0x7f07001b;
-    public static final int end_padder=0x7f07001c;
-    public static final int fill=0x7f07001d;
-    public static final int fill_horizontal=0x7f07001e;
-    public static final int fill_vertical=0x7f07001f;
-    public static final int flip_button=0x7f070020;
-    public static final int forever=0x7f070021;
-    public static final int format_text_view=0x7f070022;
-    public static final int help_contents=0x7f070023;
-    public static final int history_detail=0x7f070024;
-    public static final int history_title=0x7f070025;
-    public static final int icon=0x7f070026;
-    public static final int icon_group=0x7f070027;
-    public static final int image_view=0x7f070028;
-    public static final int info=0x7f070029;
-    public static final int italic=0x7f07002a;
-    public static final int launch_product_query=0x7f07002b;
-    public static final int left=0x7f07002c;
-    public static final int line1=0x7f07002d;
-    public static final int line3=0x7f07002e;
-    public static final int media_actions=0x7f07002f;
-    public static final int menu_encode=0x7f070030;
-    public static final int menu_help=0x7f070031;
-    public static final int menu_history=0x7f070032;
-    public static final int menu_history_clear_text=0x7f070033;
-    public static final int menu_history_send=0x7f070034;
-    public static final int menu_settings=0x7f070035;
-    public static final int menu_share=0x7f070036;
-    public static final int meta_text_view=0x7f070037;
-    public static final int meta_text_view_label=0x7f070038;
-    public static final int none=0x7f070039;
-    public static final int normal=0x7f07003a;
-    public static final int notification_background=0x7f07003b;
-    public static final int notification_main_column=0x7f07003c;
-    public static final int notification_main_column_container=0x7f07003d;
-    public static final int page_number_view=0x7f07003e;
-    public static final int preview_view=0x7f07003f;
-    public static final int query_button=0x7f070040;
-    public static final int query_text_view=0x7f070041;
-    public static final int quit=0x7f070042;
-    public static final int restart_preview=0x7f070043;
-    public static final int result_button_view=0x7f070044;
-    public static final int result_list_view=0x7f070045;
-    public static final int result_view=0x7f070046;
-    public static final int return_scan_result=0x7f070047;
-    public static final int right=0x7f070048;
-    public static final int right_icon=0x7f070049;
-    public static final int right_side=0x7f07004a;
-    public static final int share_app_button=0x7f07004b;
-    public static final int share_bookmark_button=0x7f07004c;
-    public static final int share_clipboard_button=0x7f07004d;
-    public static final int share_contact_button=0x7f07004e;
-    public static final int share_text_view=0x7f07004f;
-    public static final int snippet_view=0x7f070050;
-    public static final int start=0x7f070051;
-    public static final int status_bar_latest_event_content=0x7f070052;
-    public static final int status_view=0x7f070053;
-    public static final int tag_transition_group=0x7f070054;
-    public static final int text=0x7f070055;
-    public static final int text2=0x7f070056;
-    public static final int time=0x7f070057;
-    public static final int time_text_view=0x7f070058;
-    public static final int title=0x7f070059;
-    public static final int top=0x7f07005a;
-    public static final int torch_button=0x7f07005b;
-    public static final int type_text_view=0x7f07005c;
-    public static final int viewfinder_view=0x7f07005d;
+    public static final int app_picker_list_item_icon=0x7f070006;
+    public static final int app_picker_list_item_label=0x7f070007;
+    public static final int async=0x7f070008;
+    public static final int barcode_image_view=0x7f070009;
+    public static final int blocking=0x7f07000a;
+    public static final int bookmark_title=0x7f07000b;
+    public static final int bookmark_url=0x7f07000c;
+    public static final int cancel_action=0x7f07000d;
+    public static final int chronometer=0x7f07000e;
+    public static final int contents_supplement_text_view=0x7f07000f;
+    public static final int contents_text_view=0x7f070010;
+    public static final int decode=0x7f070011;
+    public static final int decode_failed=0x7f070012;
+    public static final int decode_succeeded=0x7f070013;
+    public static final int end_padder=0x7f070014;
+    public static final int flip_button=0x7f070015;
+    public static final int forever=0x7f070016;
+    public static final int format_text_view=0x7f070017;
+    public static final int help_contents=0x7f070018;
+    public static final int history_detail=0x7f070019;
+    public static final int history_title=0x7f07001a;
+    public static final int icon=0x7f07001b;
+    public static final int icon_group=0x7f07001c;
+    public static final int image_view=0x7f07001d;
+    public static final int info=0x7f07001e;
+    public static final int italic=0x7f07001f;
+    public static final int launch_product_query=0x7f070020;
+    public static final int line1=0x7f070021;
+    public static final int line3=0x7f070022;
+    public static final int media_actions=0x7f070023;
+    public static final int menu_encode=0x7f070024;
+    public static final int menu_help=0x7f070025;
+    public static final int menu_history=0x7f070026;
+    public static final int menu_history_clear_text=0x7f070027;
+    public static final int menu_history_send=0x7f070028;
+    public static final int menu_settings=0x7f070029;
+    public static final int menu_share=0x7f07002a;
+    public static final int meta_text_view=0x7f07002b;
+    public static final int meta_text_view_label=0x7f07002c;
+    public static final int normal=0x7f07002d;
+    public static final int notification_background=0x7f07002e;
+    public static final int notification_main_column=0x7f07002f;
+    public static final int notification_main_column_container=0x7f070030;
+    public static final int page_number_view=0x7f070031;
+    public static final int preview_view=0x7f070032;
+    public static final int query_button=0x7f070033;
+    public static final int query_text_view=0x7f070034;
+    public static final int quit=0x7f070035;
+    public static final int restart_preview=0x7f070036;
+    public static final int result_button_view=0x7f070037;
+    public static final int result_list_view=0x7f070038;
+    public static final int result_view=0x7f070039;
+    public static final int return_scan_result=0x7f07003a;
+    public static final int right_icon=0x7f07003b;
+    public static final int right_side=0x7f07003c;
+    public static final int share_app_button=0x7f07003d;
+    public static final int share_bookmark_button=0x7f07003e;
+    public static final int share_clipboard_button=0x7f07003f;
+    public static final int share_contact_button=0x7f070040;
+    public static final int share_text_view=0x7f070041;
+    public static final int snippet_view=0x7f070042;
+    public static final int status_bar_latest_event_content=0x7f070043;
+    public static final int status_view=0x7f070044;
+    public static final int text=0x7f070045;
+    public static final int text2=0x7f070046;
+    public static final int time=0x7f070047;
+    public static final int time_text_view=0x7f070048;
+    public static final int title=0x7f070049;
+    public static final int torch_button=0x7f07004a;
+    public static final int type_text_view=0x7f07004b;
+    public static final int viewfinder_view=0x7f07004c;
   }
   public static final class integer {
     public static final int cancel_button_image_alpha=0x7f080000;
@@ -533,213 +417,8 @@ public final class R {
     public static final int TextAppearance_Compat_Notification_Title_Media=0x7f0e000c;
     public static final int Widget_Compat_NotificationActionContainer=0x7f0e000d;
     public static final int Widget_Compat_NotificationActionText=0x7f0e000e;
-    public static final int Widget_Support_CoordinatorLayout=0x7f0e000f;
   }
   public static final class styleable {
-    /**
-     * Attributes that can be used with a CoordinatorLayout.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines io.cordova.hellocordova:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground io.cordova.hellocordova:statusBarBackground}</code></td><td></td></tr>
-     * </table>
-     * @see #CoordinatorLayout_keylines
-     * @see #CoordinatorLayout_statusBarBackground
-     */
-    public static final int[] CoordinatorLayout={
-        0x7f02000a, 0x7f020011
-      };
-    /**
-     * Attributes that can be used with a CoordinatorLayout_Layout.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor io.cordova.hellocordova:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity io.cordova.hellocordova:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior io.cordova.hellocordova:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges io.cordova.hellocordova:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge io.cordova.hellocordova:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline io.cordova.hellocordova:layout_keyline}</code></td><td></td></tr>
-     * </table>
-     * @see #CoordinatorLayout_Layout_android_layout_gravity
-     * @see #CoordinatorLayout_Layout_layout_anchor
-     * @see #CoordinatorLayout_Layout_layout_anchorGravity
-     * @see #CoordinatorLayout_Layout_layout_behavior
-     * @see #CoordinatorLayout_Layout_layout_dodgeInsetEdges
-     * @see #CoordinatorLayout_Layout_layout_insetEdge
-     * @see #CoordinatorLayout_Layout_layout_keyline
-     */
-    public static final int[] CoordinatorLayout_Layout={
-        0x010100b3, 0x7f02000b, 0x7f02000c, 0x7f02000d, 
-        0x7f02000e, 0x7f02000f, 0x7f020010
-      };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
-     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td></td></tr>
-     * <tr><td>center</td><td>11</td><td></td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
-     * <tr><td>fill</td><td>77</td><td></td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
-     * <tr><td>left</td><td>3</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
-     * <tr><td>top</td><td>30</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:layout_gravity
-     */
-    public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
-    /**
-     * <p>This symbol is the offset where the {@link io.cordova.hellocordova.R.attr#layout_anchor}
-     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name io.cordova.hellocordova:layout_anchor
-     */
-    public static final int CoordinatorLayout_Layout_layout_anchor=1;
-    /**
-     * <p>This symbol is the offset where the {@link io.cordova.hellocordova.R.attr#layout_anchorGravity}
-     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td></td></tr>
-     * <tr><td>center</td><td>11</td><td></td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
-     * <tr><td>fill</td><td>77</td><td></td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
-     * <tr><td>left</td><td>3</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
-     * <tr><td>top</td><td>30</td><td></td></tr>
-     * </table>
-     *
-     * @attr name io.cordova.hellocordova:layout_anchorGravity
-     */
-    public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
-    /**
-     * <p>This symbol is the offset where the {@link io.cordova.hellocordova.R.attr#layout_behavior}
-     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name io.cordova.hellocordova:layout_behavior
-     */
-    public static final int CoordinatorLayout_Layout_layout_behavior=3;
-    /**
-     * <p>This symbol is the offset where the {@link io.cordova.hellocordova.R.attr#layout_dodgeInsetEdges}
-     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>77</td><td></td></tr>
-     * <tr><td>bottom</td><td>50</td><td></td></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
-     * <tr><td>left</td><td>3</td><td></td></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
-     * <tr><td>top</td><td>30</td><td></td></tr>
-     * </table>
-     *
-     * @attr name io.cordova.hellocordova:layout_dodgeInsetEdges
-     */
-    public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
-    /**
-     * <p>This symbol is the offset where the {@link io.cordova.hellocordova.R.attr#layout_insetEdge}
-     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td></td></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
-     * <tr><td>left</td><td>3</td><td></td></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
-     * <tr><td>top</td><td>30</td><td></td></tr>
-     * </table>
-     *
-     * @attr name io.cordova.hellocordova:layout_insetEdge
-     */
-    public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
-    /**
-     * <p>This symbol is the offset where the {@link io.cordova.hellocordova.R.attr#layout_keyline}
-     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name io.cordova.hellocordova:layout_keyline
-     */
-    public static final int CoordinatorLayout_Layout_layout_keyline=6;
-    /**
-     * <p>This symbol is the offset where the {@link io.cordova.hellocordova.R.attr#keylines}
-     * attribute's value can be found in the {@link #CoordinatorLayout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name io.cordova.hellocordova:keylines
-     */
-    public static final int CoordinatorLayout_keylines=0;
-    /**
-     * <p>This symbol is the offset where the {@link io.cordova.hellocordova.R.attr#statusBarBackground}
-     * attribute's value can be found in the {@link #CoordinatorLayout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name io.cordova.hellocordova:statusBarBackground
-     */
-    public static final int CoordinatorLayout_statusBarBackground=1;
     /**
      * Attributes that can be used with a FontFamily.
      * <p>Includes the following attributes:</p>
@@ -762,8 +441,8 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
-        0x7f020002, 0x7f020003, 0x7f020004, 0x7f020005, 
-        0x7f020006, 0x7f020007
+        0x7f020001, 0x7f020002, 0x7f020003, 0x7f020004, 
+        0x7f020005, 0x7f020006
       };
     /**
      * Attributes that can be used with a FontFamilyFont.
@@ -772,62 +451,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_font io.cordova.hellocordova:font}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_fontStyle io.cordova.hellocordova:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_fontWeight io.cordova.hellocordova:fontWeight}</code></td><td></td></tr>
      * </table>
-     * @see #FontFamilyFont_android_font
-     * @see #FontFamilyFont_android_fontWeight
-     * @see #FontFamilyFont_android_fontStyle
      * @see #FontFamilyFont_font
      * @see #FontFamilyFont_fontStyle
      * @see #FontFamilyFont_fontWeight
      */
     public static final int[] FontFamilyFont={
-        0x01010532, 0x01010533, 0x0101053f, 0x7f020001, 
-        0x7f020008, 0x7f020009
+        0x7f020000, 0x7f020007, 0x7f020008
       };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#font}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:font
-     */
-    public static final int FontFamilyFont_android_font=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#fontStyle}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>italic</td><td>1</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:fontStyle
-     */
-    public static final int FontFamilyFont_android_fontStyle=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#fontWeight}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name android:fontWeight
-     */
-    public static final int FontFamilyFont_android_fontWeight=1;
     /**
      * <p>This symbol is the offset where the {@link io.cordova.hellocordova.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
@@ -839,7 +473,7 @@ public final class R {
      *
      * @attr name io.cordova.hellocordova:font
      */
-    public static final int FontFamilyFont_font=3;
+    public static final int FontFamilyFont_font=0;
     /**
      * <p>This symbol is the offset where the {@link io.cordova.hellocordova.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
@@ -856,7 +490,7 @@ public final class R {
      *
      * @attr name io.cordova.hellocordova:fontStyle
      */
-    public static final int FontFamilyFont_fontStyle=4;
+    public static final int FontFamilyFont_fontStyle=1;
     /**
      * <p>This symbol is the offset where the {@link io.cordova.hellocordova.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
@@ -865,7 +499,7 @@ public final class R {
      *
      * @attr name io.cordova.hellocordova:fontWeight
      */
-    public static final int FontFamilyFont_fontWeight=5;
+    public static final int FontFamilyFont_fontWeight=2;
     /**
      * <p>This symbol is the offset where the {@link io.cordova.hellocordova.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
