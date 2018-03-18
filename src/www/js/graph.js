@@ -1,14 +1,16 @@
 class Graph {
-  constructor(size, directory) {
+  constructor(size) {
     this.size = size;
-    this.edges = new Array(size);
-    for(var i = 0; i < size; i++){
-      this.edges[i] = new Array(size);
-      for(var j = 0; j < size; j++){
+    this.edges = new Array(size+1);
+    this.way = new Array(size+1);
+    for(var i = 0; i < size+1; i++){
+      this.edges[i] = new Array(size+1);
+      this.way[i] = new Array(size+1);
+      for(var j = 0; j < size+1; j++){
         this.edges[i][j] = 0;
+        this.way[i][j] = -1;
       }
     }
-    this.directory = directory;
   }
 
   // Ajouter une arête au graphe.
@@ -20,9 +22,15 @@ class Graph {
   // ways : attribut qui sera utilisé
   // pour définir l'orientation sur la
   // bousolle de l'arête(couloir)
-  addEdge(s1, s2, weight){
+  addEdge(s1, s2, weight, way){
+    var inverseWay = way + 180;
+    if(inverseWay > 360){
+      inverseWay = inverseWay - 360;
+    }
     this.edges[s1][s2] = weight;
     this.edges[s2][s1] = weight;
+    this.way[s1][s2] = way;
+    this.way[s2][s1] = inverseWay;
   }
 
   initDomaine(start){
@@ -84,15 +92,18 @@ class Graph {
   }
 
   findShortestPath(start, end){
+    alert("Calcul d'un nouvel itineraire")
     var pred = this.dijkstra(start);
-    var path = "";
+    var path = new Array();
+    var i = 0;
     var s = end;
     while(s != start){
-      path += s + " <- ";
+      path[i] = s;
       s = pred[s];
+      i++;
     }
-    path += start;
-    return path;
+    path[i] = start;
+    return path.reverse();
   }
 
   toJson() {
