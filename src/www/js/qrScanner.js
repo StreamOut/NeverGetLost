@@ -62,12 +62,14 @@ function reachDest(json){
 }
 
 function textToGraph(json){
-  GLOBAL_graph = new Graph(json.nbVertex);
+  GLOBAL_graph = new Graph(parseInt(json.nbVertex));
   var edge;
   for (var i = 0; i < json.edges.length; i++) {
     edge = json.edges[i];
-    GLOBAL_graph.addEdge(edge.s1, edge.s2, edge.weight, edge.way);
+    GLOBAL_graph.addEdge(parseInt(edge.s1), parseInt(edge.s2), parseInt(edge.weight), parseInt(edge.way));
+    // alert("edge : "+edge.s1+" "+ edge.s2+" "+ edge.weight+" "+ edge.way)
   }
-  // alert("Nouveau graphe avec "+GLOBAL_graph.size+" sommets");
+  alert("Nouveau graphe avec "+GLOBAL_graph.size+" sommets");
   GLOBAL_directory = json.directory;
+  // alert("directory "+GLOBAL_directory);
 }

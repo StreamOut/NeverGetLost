@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Service Web Rest contenant les graphes utilisé dans l'application NeverGetLost",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Malo Dumont et Yenni Chermak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "~3.6.13",
+    "body-parser": "~1.0.1"
+  }
+}

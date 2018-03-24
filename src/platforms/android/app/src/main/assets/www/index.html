@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src * 'unsafe-inline'; media-src *; script-src 'unsafe-inline' *">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src * 'unsafe-inline'; media-src *; script-src 'unsafe-inline' *; connect-src *;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
@@ -26,17 +26,19 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       <script type="text/javascript" src="cordova.js"></script>
+      <script type="text/javascript" src="js/serverDialog.js"> </script>
       <script type="text/javascript" src="js/qrScanner.js"> </script>
       <script type="text/javascript" src="js/compass.js"> </script>
       <script type="text/javascript" src="js/graph.js"> </script>
       <script type="text/javascript" src="js/displayGraph.js"> </script>
       <script type="text/javascript" src="js/display.js"> </script>
       <script type="text/javascript" src="js/data.js"> </script>
+
       <script src="https://d3js.org/d3.v4.min.js"></script>
       <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script>
       homepageView();
-      // createAnnuaire();
 		</script>
     </body>
 </html>
