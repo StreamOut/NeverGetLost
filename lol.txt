@@ -1,0 +1,145 @@
+directory[0][name]:S. Anglais
+directory[0][occupant]:
+directory[0][s1]:0
+directory[0][s2]:1
+directory[0][distance]:5
+directory[1][name]:Bureau 01
+directory[1][occupant]:
+directory[1][s1]:1
+directory[1][s2]:2
+directory[1][distance]:5
+directory[2][name]:Bureau 02
+directory[2][occupant]:
+directory[2][s1]:2
+directory[2][s2]:3
+directory[2][distance]:5
+directory[3][name]:Bureau 03
+directory[3][occupant]:
+directory[3][s1]:2
+directory[3][s2]:3
+directory[3][distance]:5
+directory[4][name]:Foyer Etudiant
+directory[4][occupant]:
+directory[4][s1]:4
+directory[4][s2]:5
+directory[4][distance]:5
+directory[5][name]:S. TD 01
+directory[5][occupant]:
+directory[5][s1]:0
+directory[5][s2]:1
+directory[5][distance]:5
+directory[6][name]:S. TD 02
+directory[6][occupant]:
+directory[6][s1]:1
+directory[6][s2]:4
+directory[6][distance]:5
+directory[7][name]:S. Projet 01
+directory[7][occupant]:
+directory[7][s1]:1
+directory[7][s2]:4
+directory[7][distance]:5
+directory[8][name]:Amphi
+directory[8][occupant]:
+directory[8][s1]:5
+directory[8][s2]:10
+directory[8][distance]:5
+directory[9][name]:S. Cours
+directory[9][occupant]:
+directory[9][s1]:9
+directory[9][s2]:8
+directory[9][distance]:5
+directory[10][name]:Bureau Gardien
+directory[10][occupant]:
+directory[10][s1]:10
+directory[10][s2]:9
+directory[10][distance]:5
+directory[11[name]:S. Informatique 01
+directory[11][occupant]:
+directory[11][s1]:22
+directory[11][s2]:23
+directory[11][distance]:5
+directory[12][name]:Bureau 04
+directory[12][occupant]:
+directory[12][s1]:21
+directory[12][s2]:22
+directory[12][distance]:5
+directory[13][name]:Bureau 05
+directory[13][occupant]:
+directory[13][s1]:20
+directory[13][s2]:21
+directory[13][distance]:5
+directory[14][name]:Bureau 06
+directory[14][occupant]:
+directory[14][s1]:19
+directory[14][s2]:20
+directory[14][distance]:5
+directory[15][name]:S. Informatique 03
+directory[15][occupant]:
+directory[15][s1]:19
+directory[15][s2]:22
+directory[15][distance]:5
+directory[16][name]:S. Informatique 02
+directory[16][occupant]:
+directory[16][s1]:19
+directory[16][s2]:22
+directory[16][distance]:5
+directory[17][name]:S. Projet 03
+directory[17][occupant]:
+directory[17][s1]:17
+directory[17][s2]:18
+directory[17][distance]:5
+directory[18][name]:S. Projet 02
+directory[18][occupant]:
+directory[18][s1]:17
+directory[18][s2]:18
+directory[18][distance]:5
+directory[19][name]:Bureau 11
+directory[19][occupant]:
+directory[19][s1]:15
+directory[19][s2]:16
+directory[19][distance]:5
+directory[20][name]:Bureau 10
+directory[20][occupant]:
+directory[20][s1]:15
+directory[20][s2]:16
+directory[20][distance]:5
+directory[21][name]:Secreteriat
+directory[21][occupant]:
+directory[21][s1]:11
+directory[21][s2]:12
+directory[21][distance]:5
+directory[22][name]:Admin/Res
+directory[22][occupant]:
+directory[22][s1]:11
+directory[22][s2]:12
+directory[22][distance]:5
+directory[23][name]:Bureau 07
+directory[23][occupant]:
+directory[23][s1]:11
+directory[23][s2]:12
+directory[23][distance]:5
+directory[24][name]:Bureau 08
+directory[24][occupant]:
+directory[24][s1]:11
+directory[24][s2]:12
+directory[24][distance]:5
+directory[25][name]:Bureau 09
+directory[25][occupant]:
+directory[25][s1]:11
+directory[25][s2]:12
+directory[25][distance]:5
+directory[26][name]:Bureau Chef-Dptmt
+directory[26][occupant]:
+directory[26][s1]:11
+directory[26][s2]:12
+directory[26][distance]:5
+directory[27][name]:S. Reunion
+directory[27][occupant]:
+directory[27][s1]:12
+directory[27][s2]:13
+directory[27][distance]:5
+directory[28][name]:Archives
+directory[28][occupant]:
+directory[28][s1]:11
+directory[28][s2]:12
+directory[28][distance]:5

@@ -18,11 +18,14 @@ function destChoisie(destination){
 
 function createMapAnnuaire(graphs){
   $("#contenu").empty();
-  $("#contenu").append('<div class="list-group">');
+  $("#contenu").append('</br>'
+    +'</br>'
+    +'</br>'
+    +'<div class="list-group center-block">');
   for (var i = 0; i < graphs.length; i++) {
     elem = graphs[i];
     console.log(elem);
-    $("#contenu").append('<button type="button" class="list-group-item list-group-item-action" onclick="getGraph(\''+elem._id+'\')" >' + elem.name + '</button>');
+    $("#contenu").append('<button type="button" class="list-group-item list-group-item-action bg-secondary text-white" onclick="getGraph(\''+elem._id+'\')" >' + elem.name + '</button>');
   }
   $("#contenu").append('</div>');
 }
@@ -30,23 +33,39 @@ function createMapAnnuaire(graphs){
 function createAnnuaire(){
   var directory = GLOBAL_directory;
   $("#contenu").empty();
-  $("#contenu").append('<div class="list-group">');
+  $("#contenu").append('</br>'
+    +'</br>'
+    +'</br>'
+    +'<div class="list-group center-block">');
   for (var i = 0; i < directory.length; i++) {
     elem = directory[i];
-    $("#contenu").append('<button type="button" class="list-group-item list-group-item-action" onclick="destChoisie('+i+')" >' + elem.name + ' ' + elem.occupant + '</button>');
+    $("#contenu").append('<button type="button" class="list-group-item list-group-item-action bg-secondary text-white" onclick="destChoisie('+i+')" >' + elem.name + ' ' + elem.occupant + '</button>');
   }
   $("#contenu").append('</div>');
 }
 
 function homepageView(){
   $("#contenu").empty();
-  $("#contenu").append('<div>'
-      +'<button id="btnScan" type="button" class="btn btn-primary" onclick="scan()">Scan</button>'
-  +'</div>'
-  +'<div id="result"></div>'
-
-  +'<button id="btnGetPlan" type="button" class="btn btn-warning" onclick="getAllGraph()">Trouver un plan</button>'
-  +'<svg width="300" height="200"></svg>');
+  $("#contenu").append( '<!-- Header -->'
+                    +'<div class="text-white text-center">'
+                      +'<div class="container">'
+                        +'</br>'
+                        +'</br>'
+                        +'</br>'
+                        +'</br>'
+                        +'</br>'
+                        +'<img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">'
+                        +'<h2 class="text-uppercase mb-0">Never get lost</h2>'
+                        +'<hr class="star-light">'
+                        +'<h3 class="font-weight-light mb-5">An indoor navigation app</h3>'
+                        +'<div>'
+                          +'<button id="btnScan" type="button" class="navbar-toggler text-uppercase bg-secondary text-white rounded" onclick="scan()">Scan</button>'
+                          +'<button id="btnGetPlan" type="button" class="navbar-toggler text-uppercase bg-secondary text-white rounded" onclick="getAllGraph()">Trouver un plan</button>'
+                        +'</div>'
+                        // +'<svg width="300" height="200"></svg>'
+                      +'</div>'
+                    +'</div>'
+                    );
 }
 
 function navigateView(){

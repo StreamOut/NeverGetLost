@@ -28,5 +28,6 @@
     <plugin name="cordova-android-support-gradle-release" spec="^1.2.0">
         <variable name="ANDROID_SUPPORT_VERSION" value="26.0.0" />
     </plugin>
+    <preference name="Fullscreen" value="true" />
     <engine name="android" spec="^7.0.0" />
 </widget>
